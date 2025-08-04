@@ -8,12 +8,29 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Meet Our Team</h1>
-    <p>We are the PEAAII Team!</p>
-  </header>
 
-  <section class="team-grid">
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">
+      <!-- Optional image logo -->
+      <!-- <img src="images/logo.png" alt="Logo" /> -->
+      <span>PEAAII</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="content-section">
+    <h1>About Us</h1>
+    <p>We are the PEAAII team!</p>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="team-grid">
     <div class="team-member">
       <h2>Placeholder Placeholder</h2>
       <p class="role">Team Lead</p>
@@ -31,10 +48,16 @@
       <p class="role">Data Scientist</p>
       <p>This is a sample description.</p>
     </div>
+  </section>
 
-    <!-- Add more team members as needed -->
+  <!-- Projects Section -->
+  <section id="projects" class="content-section">
+    <h1>Our Projects</h1>
+    <ul>
+      <li>Project Alpha – AI-powered productivity tool</li>
+      <li>Project Beta – Mental health chatbot</li>
+    </ul>
   </section>
 
 </body>
 </html>
-
