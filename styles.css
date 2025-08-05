@@ -66,6 +66,12 @@ header {
   text-align: center;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
 .team-member h2 {
   margin: 0.5rem 0 0.2rem;
 }
@@ -75,3 +81,4 @@ header {
   color: #0077b6;
   margin-bottom: 0.5rem;
 }
+
