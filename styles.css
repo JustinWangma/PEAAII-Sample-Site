@@ -6,7 +6,11 @@ body {
   color: #333;
 }
 
+/* Sticky top navigation bar */
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,6 +28,8 @@ body {
   list-style: none;
   display: flex;
   gap: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links li a {
@@ -61,7 +67,7 @@ header {
 .team-member {
   background: white;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
   text-align: center;
 }
@@ -70,7 +76,6 @@ h1 {
   text-align: center;
   margin-top: 2rem;
 }
-
 
 .team-member h2 {
   margin: 0.5rem 0 0.2rem;
@@ -94,7 +99,7 @@ h1 {
   border-radius: 10px;
   padding: 1.5rem;
   margin: 2rem 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
 }
 
@@ -121,11 +126,4 @@ h1 {
 .blog-post p {
   font-size: 1rem;
   color: #555;
-}
-
-body {
-  font-family: 'Inter', sans-serif;
-  background-color: #fff;
-  padding-top: 60px;
-  padding-bottom: 40px;
 }
