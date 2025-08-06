@@ -155,12 +155,12 @@ h1 {
   font-size: 1.5rem;
 }
 
-.project-content h2 a {
+.projects-content h2 a {
   text-decoration: none;
   color: #333;
 }
 
-.project-content p {
+.projects-content p {
   font-size: 1rem;
   color: #555;
   text-align: left;
